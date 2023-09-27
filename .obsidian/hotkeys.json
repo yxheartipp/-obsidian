@@ -1,0 +1,44 @@
+{
+  "templater-obsidian:Templates/TP-SM-Dismiss.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "note-composer:split-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "X"
+    }
+  ],
+  "obsidian-spaced-repetition:srs-note-review-good": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "workspace:new-tab": [],
+  "obsidian-spaced-repetition:srs-note-review-open-note": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ]
+}

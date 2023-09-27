@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "aabf32094b3e8107",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a97ba34a1550018",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c76cfef28e890c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/TP-SM-Dismiss.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e0568ecac967a2bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5c6b6d29a7e724d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8f0a014c7f4eca8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cafd6e789dcb86b4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e172ee00ea08ea33",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ba4e41b5de68e0e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "48f8f747263c4238",
+    "type": "split",
+    "children": [
+      {
+        "id": "56acce575448128c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a38993f033e4782e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Templates/TP-SM-Dismiss.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "180ee99767f1a27f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Templates/TP-SM-Dismiss.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7d1b0de74964486c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5293a5d4be241315",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Templates/TP-SM-Dismiss.md"
+              }
+            }
+          },
+          {
+            "id": "f85f842099d43224",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 343.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-spaced-repetition:复习卡片": false
+    }
+  },
+  "active": "6c76cfef28e890c4",
+  "lastOpenFiles": [
+    "Templates/TP-KG-Link.md",
+    "README.md",
+    "Reading/释放图谱的力量——KG笔记法.md",
+    "Templates/TP-SM-Dismiss.md",
+    "Reading/ob渐进阅读方法.md",
+    "Pasted image 20221231135006.png",
+    "test1.md"
+  ]
+}
