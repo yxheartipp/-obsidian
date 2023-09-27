@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/TP-SM-Dismiss.md",
-                "mode": "preview",
+                "file": "Reading/释放图谱的力量——KG笔记法.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/TP-SM-Dismiss.md",
+                "file": "Reading/释放图谱的力量——KG笔记法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/TP-SM-Dismiss.md",
+                "file": "Reading/释放图谱的力量——KG笔记法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/TP-SM-Dismiss.md"
+                "file": "Reading/释放图谱的力量——KG笔记法.md"
               }
             }
           },
@@ -166,11 +166,11 @@
   },
   "active": "6c76cfef28e890c4",
   "lastOpenFiles": [
-    "Templates/TP-KG-Link.md",
-    "README.md",
+    "Reading/ob渐进阅读方法.md",
     "Reading/释放图谱的力量——KG笔记法.md",
     "Templates/TP-SM-Dismiss.md",
-    "Reading/ob渐进阅读方法.md",
+    "Templates/TP-KG-Link.md",
+    "README.md",
     "Pasted image 20221231135006.png",
     "test1.md"
   ]

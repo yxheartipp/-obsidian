@@ -1,7 +1,8 @@
 ---
-alias: []
+aliases: 
 Type: 
-tags: ["#review"]
+tags:
+  - "#review"
 sr-due: 2023-01-01
 sr-interval: 1
 sr-ease: 250
