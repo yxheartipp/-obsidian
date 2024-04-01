@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/TP-KG-Link.md",
+                "file": "rocks_db_cloud.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/TP-KG-Link.md",
+                "file": "rocks_db_cloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/TP-KG-Link.md",
+                "file": "rocks_db_cloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/TP-KG-Link.md"
+                "file": "rocks_db_cloud.md"
               }
             }
           },
@@ -167,9 +167,9 @@
   },
   "active": "de3e7c47195c50e9",
   "lastOpenFiles": [
+    "Templates/TP-KG-Link.md",
     "rocks_db_cloud.md",
     "Reading/ob渐进阅读方法.md",
-    "Templates/TP-KG-Link.md",
     "Templates/TP-SM-Dismiss.md",
     "Reading/释放图谱的力量——KG笔记法.md",
     "README.md",
