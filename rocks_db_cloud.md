@@ -30,4 +30,7 @@ sr-ease: 250
 - 将所有sst复制到云上路径
 #### DBCloudImpl::CheckpointToCloud
 - 先暂时停止删除
-- 
+- 创建新的Manifest
+- 将当前所有file放入cloud
+- 更新Manifest
+- 恢复删除功能

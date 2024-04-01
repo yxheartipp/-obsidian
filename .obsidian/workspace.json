@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6c76cfef28e890c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reading/ob渐进阅读方法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6285c0bcbafdd48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reading/ob渐进阅读方法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89f5e6b5bd76f0ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reading/ob渐进阅读方法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "de3e7c47195c50e9",
             "type": "leaf",
             "state": {
@@ -55,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
