@@ -20,3 +20,14 @@ sr-ease: 250
 ### db_cloud_impl
 #### DBCloud::Open
 如何从本地恢复？
+1. 制作ColmnFamilyDescriptor 。
+2. sst_file_manager生成或者是从CloudFileSystem生成。
+3. 如果是新数据库就新建一个CloudManifest。
+4. 每一次对MANIFEST的更新都会上传到S3中。
+5. 对cfs定义了一个manifest一个循环滚动更新，每次更新本地manifest就更新云端manifest
+#### DBCloud::Savepoint
+- 从所有db中获取所有的sst
+- 将所有sst复制到云上路径
+#### DBCloudImpl::CheckpointToCloud
+- 先暂时停止删除
+- 
