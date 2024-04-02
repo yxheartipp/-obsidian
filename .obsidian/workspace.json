@@ -14,12 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "rocks_db_cloud.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56246746818b614b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rocks_db_cloud.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +179,7 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "de3e7c47195c50e9",
+  "active": "56246746818b614b",
   "lastOpenFiles": [
     "Reading/ob渐进阅读方法.md",
     "rocks_db_cloud.md",

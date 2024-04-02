@@ -50,4 +50,11 @@ sr-ease: 250
 - 从log中读取，并写入Manifest
 #### ResyncDir
 - 重新加载两端所有文件。
+#### LoadCloudManifest
+- FetchCloudManifest[[#^e020c2]]
+- LoadLocalCloudManifest
+- FetchCloudManifest ^e020c2
 
+#### FetchCloudManifest
+
+ 
