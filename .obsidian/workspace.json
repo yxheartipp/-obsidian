@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "48f8f747263c4238",
@@ -167,9 +168,9 @@
   },
   "active": "de3e7c47195c50e9",
   "lastOpenFiles": [
-    "Templates/TP-KG-Link.md",
-    "rocks_db_cloud.md",
     "Reading/ob渐进阅读方法.md",
+    "rocks_db_cloud.md",
+    "Templates/TP-KG-Link.md",
     "Templates/TP-SM-Dismiss.md",
     "Reading/释放图谱的力量——KG笔记法.md",
     "README.md",

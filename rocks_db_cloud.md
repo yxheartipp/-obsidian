@@ -34,3 +34,14 @@ sr-ease: 250
 - 将当前所有file放入cloud
 - 更新Manifest
 - 恢复删除功能
+
+
+### CloudFileSystemImpl
+#### GetChildren
+- 从cloud中获取给定目录下的所有文件
+- 获取本地给定目录下所有的文件
+- 在结果中删除所有非sst以及anifestFile的文件。
+#### CopyLocalFileToDest
+- 将云端删除的规划取消
+- 将云端文件复制到给定的目录
+
