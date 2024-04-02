@@ -44,4 +44,5 @@ sr-ease: 250
 #### CopyLocalFileToDest
 - 将云端删除的规划取消
 - 将云端文件复制到给定的目录
+#### LoadLocalCloudManifest
 
