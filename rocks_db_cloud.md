@@ -45,4 +45,9 @@ sr-ease: 250
 - 将云端删除的规划取消
 - 将云端文件复制到给定的目录
 #### LoadLocalCloudManifest
+- 生成Cloud上Manifest文件名
+- 创建文件
+- 从log中读取，并写入Manifest
+#### ResyncDir
+- 重新加载两端所有文件。
 
