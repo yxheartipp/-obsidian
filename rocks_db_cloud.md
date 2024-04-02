@@ -51,10 +51,13 @@ sr-ease: 250
 #### ResyncDir
 - 重新加载两端所有文件。
 #### LoadCloudManifest
-- FetchCloudManifest[[#^e020c2]]
-- LoadLocalCloudManifest
-- FetchCloudManifest ^e020c2
+- [[#FetchCloudManifest]]
+- [[#LoadLocalCloudManifest]]
+- [[#FetchManifest]]
 
 #### FetchCloudManifest
-
+- 从目的地址中获取CloudManifest文件
  
+#### FetchManifest
+- 利用版本号获取manifest文件
+- 
