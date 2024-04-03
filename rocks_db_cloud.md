@@ -23,8 +23,9 @@ sr-ease: 250
 1. 提前获取当前配置下的sst_file_size
 2. 在本地文件系统新建目录
 3. 判断云端上是否存在Manifest
-4. 获得Manifest后，同步dbpath目录
-5. 
+4. 获得Manifest后，同步dbpath目录[[#SanitizeDirectory]]
+5. 从云端获取Manifest[[#LoadCloudManifest]]
+6. 
 #### DBCloud::Savepoint
 - 从所有db中获取所有的sst
 - 将所有sst复制到云上路径
@@ -35,8 +36,7 @@ sr-ease: 250
 - 更新Manifest
 - 恢复删除功能
 
-
-### CloudFileSystemImpl
+### Cloud_File_System_Impl
 #### GetChildren
 - 从cloud中获取给定目录下的所有文件
 - 获取本地给定目录下所有的文件
@@ -48,6 +48,11 @@ sr-ease: 250
 - 生成Cloud上Manifest文件名
 - 创建文件
 - 从log中读取，并写入Manifest
+
+#### SanitizeDirectory
+- 先判断是否需要重启目录
+- 删除当前目录下除了LOG以及目录之外的所有文件
+- 下载Identity文件
 #### ResyncDir
 - 重新加载两端所有文件。
 #### LoadCloudManifest

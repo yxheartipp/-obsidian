@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "98d0115c9533c55f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rocks_db_cloud.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +179,7 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "4d3356fd889225d5",
+  "active": "98d0115c9533c55f",
   "lastOpenFiles": [
     "Reading/ob渐进阅读方法.md",
     "rocks_db_cloud.md",
