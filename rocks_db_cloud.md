@@ -25,7 +25,6 @@ sr-ease: 250
 3. 判断云端上是否存在Manifest
 4. 获得Manifest后，同步dbpath目录[[#SanitizeDirectory]]
 5. 从云端获取Manifest[[#LoadCloudManifest]]
-6. 
 #### DBCloud::Savepoint
 - 从所有db中获取所有的sst
 - 将所有sst复制到云上路径
