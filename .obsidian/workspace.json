@@ -20,37 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "65bd3bcd330c2fc4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6616d65763d86189",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rocksdb write_stall调研.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a61790f1a48633b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"

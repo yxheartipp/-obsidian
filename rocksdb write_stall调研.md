@@ -50,7 +50,12 @@ RocksDB 修复了 Compaction Pending Bytes 计算放大问题导致长时间 Wri
 2. 数据复写：对上面的db overwrite，造成大量的compaction重叠。
 3. 使用benchmark提供的report_file工具对写入QPS和CPU统计以及IO统计进行分析。
 ### 调整参数
-1. 减小max_background_compactions增大max_
+1. 减小max_background_compactions增大subcompact。争取实现在主机侧用单个cpu的计算而2000侧多个subcompact并行计算，实现减负
+2. 适当调整 soft-pending-compaction-bytes-limit 和 hard-pending-compaction-bytes-limit 参数观察远端是否能够成功的offload计算负担，如果可以在最终参数中调小参数多次在remote触发
+3. 加大bluefs_compact_log_size，是否对数据由增强
+4. 调大L0 file_size，观察remote_compact是否能够触发write_stall
+5. 调整max_bytes_for_level_base和target_level_size的对比关系。分析是否对remote_compact性能有影响
+6. 调整最大容量限制，观察对remote_compact的性能影响。
 
 
 
