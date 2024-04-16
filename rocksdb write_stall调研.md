@@ -34,6 +34,7 @@ sr-ease: 250
 - **slowdown_trigger**: 用于too many sst0  
 - **stop_trigger**: 用于too many sst0
 - **dynamic_level**：会导致频繁的触发compaction
+- **rate_bytes_per_sec**：flush和compaction的总体限速阀，可以合理降低IO毛刺
 
 ## Rocksdb7.x的解决方案
 [这篇文章](https://juejin.cn/post/7194404671014830117) 与rocksdb issue 9423:There are too many write stalls because对老版本rocksdb发生write_stall的具体原因进行了对比分析，发现出现性能抖动的主要原因是estimated_compaction_bytes的剧烈变化(增大），导致了QPS骤降为0:
@@ -42,3 +43,15 @@ sr-ease: 250
 ![[Pasted image 20240416181251.png]]
 ### 新版本
 RocksDB 修复了 Compaction Pending Bytes 计算放大问题导致长时间 Write Stall 问题。减少了 Compaction 和写入的锁竞争，从而规避了 Compaction 期间阻塞写入问题利用动态target level size减少空间放大和写放大，由此可以得出一个结论：每层的最大容量限制也是触发write_stall 实验中需要考量的一个参数。在原有compaction流程中max_bytes_for_level_base和target_level_size的对比关系需要进一步分析。
+
+## 测试方案
+### 实验步骤
+1. 数据填充：先push 一亿条4K的数据。
+2. 数据复写：对上面的db overwrite，造成大量的compaction重叠。
+3. 使用benchmark提供的report_file工具对写入QPS和CPU统计以及IO统计进行分析。
+### 调整参数
+1. 减小max_background_compactions增大max_
+
+
+
+
