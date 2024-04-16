@@ -36,3 +36,9 @@ sr-ease: 250
 - **dynamic_level**：会导致频繁的触发compaction
 
 ## Rocksdb7.x的解决方案
+[这篇文章](https://juejin.cn/post/7194404671014830117) 与rocksdb issue 9423:There are too many write stalls because对老版本rocksdb发生write_stall的具体原因进行了对比分析，发现出现性能抖动的主要原因是estimated_compaction_bytes的剧烈变化(增大），导致了QPS骤降为0:
+![[Pasted image 20240416181219.png]]
+文章中进一步进一步把L0 size与QPS关联起来：如下图，每当巨大的L0 size被compact下去(case 1)，size为0时，也遇到了write stall。
+![[Pasted image 20240416181251.png]]
+### 新版本
+RocksDB 修复了 Compaction Pending Bytes 计算放大问题导致长时间 Write Stall 问题。减少了 Compaction 和写入的锁竞争，从而规避了 Compaction 期间阻塞写入问题利用动态target level size减少空间放大和写放大，由此可以得出一个结论：每层的最大容量限制也是触发write_stall 实验中需要考量的一个参数。在原有compaction流程中max_bytes_for_level_base和target_level_size的对比关系需要进一步分析。
