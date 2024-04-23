@@ -30,3 +30,8 @@ sudo ./db_bench --benchmarks=fillseq --dev=/dev/nvme0n2 --num=80000000 --fs_uri=
 800000 operations;   32.5 MB/s with remote compaction
 
 
+800000 operations;  116.9 MB/s without remote compaction
+
+
+
+sudo ./db_bench --benchmarks="fillseq,stats" --dev=/dev/nvme1n1 --max_background_jobs=24 --num=10000000 --block_size=4096 --write_buffer_size=1073741824 --arena_block_size=16777216 --max_write_buffer_number=50 --batch_size=32 --compression_type=none --max_bytes_for_level_base=4294967296  --enable_pipelined_write=true --disable_auto_compactions=true --max_background_compactions=12 --max_background_flushes=8 --value_size=4096 --threads=8
