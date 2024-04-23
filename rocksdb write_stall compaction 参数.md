@@ -35,3 +35,9 @@ sudo ./db_bench --benchmarks=fillseq --dev=/dev/nvme0n2 --num=80000000 --fs_uri=
 
 
 sudo ./db_bench --benchmarks="fillseq,stats" --dev=/dev/nvme1n1 --max_background_jobs=24 --num=10000000 --block_size=4096 --write_buffer_size=1073741824 --arena_block_size=16777216 --max_write_buffer_number=50 --batch_size=32 --compression_type=none --max_bytes_for_level_base=4294967296  --enable_pipelined_write=true --disable_auto_compactions=true --max_background_compactions=12 --max_background_flushes=8 --value_size=4096 --threads=8
+
+
+
+ sudo ./db_bench --benchmarks=overwrite --use_existing_db=1 --dev=/dev/nvme0n2 --num=800000 --fs_uri=bluefs_rpc:///dev/nvme0n2//mount/host --compression_type=none --db=db --level0_file_num_compaction_trigger=4 --allow_concurrent_memtable_write=false --level0_slowdown_writes_trigger=20 --level0_stop_writes_trigger=30 --max_background_jobs=2 --max_write_buffer_number=2 --num_levels=6 --subcompactions=1 --statistics=0 --value_size=4096 --key_size=20 --stats_per_interval=1 --stats_interval_seconds=5 --report_interval_seconds=5 --report_file=./overwrite_without_remote.csv
+
+ sudo ./db_bench --benchmarks=fillseq --dev=/dev/nvme0n2 --num=800000 --fs_uri=bluefs_rpc:///dev/nvme0n2//mount/host --compression_type=none --db=db --remote_compact=1 --level0_file_num_compaction_trigger=4 --allow_concurrent_memtable_write=false --level0_slowdown_writes_trigger=20 --level0_stop_writes_trigger=30 --max_background_jobs=8 --max_write_buffer_number=8 --num_levels=6 --subcompactions=1 --statistics=0 --value_size=4096 --key_size=20 --stats_per_interval=1 --stats_interval_seconds=5 --report_interval_seconds=5
