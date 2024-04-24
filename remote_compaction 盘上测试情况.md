@@ -39,4 +39,7 @@ sudo ./db_bench --benchmarks=overwrite --use_existing_db=1 --dev=/dev/nvme0n2 --
 ## 结果分析
 从上图中可以看出一下几点：
 1. remote_compact 可以减轻主机侧cpu使用，但目前remote_compact的并行性测试等并没有完善，无法得出在多线程使用情况下remote_compact对主机侧的减负情况。
-2. 盘上的cpu计算速度，不如主机侧cpu计算速度。受限与盘上的计算速度，在最终QPS上无法与主机侧compact做比较
+2. 盘上的cpu计算速度，不如主机侧cpu计算速度。受限与盘上的计算速度，在最终QPS上无法与主机侧compact做比较。
+## 错误总结
+### 单线程错误八百万覆盖写错误（可以复现）
+![[error.png]]
