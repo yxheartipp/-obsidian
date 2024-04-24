@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1210acdafe4c1384",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "参数分析.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rocksdb write_stall compaction 参数.md",
+                "file": "参数分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rocksdb write_stall compaction 参数.md",
+                "file": "参数分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rocksdb write_stall compaction 参数.md"
+                "file": "参数分析.md"
               }
             }
           },
@@ -178,10 +190,13 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "28aa4321bcab2d3a",
+  "active": "1210acdafe4c1384",
   "lastOpenFiles": [
-    "rocksdb write_stall调研.md",
+    "Pasted image 20240424115424.png",
+    "Pasted image 20240424115334.png",
+    "参数分析.md",
     "rocksdb write_stall compaction 参数.md",
+    "rocksdb write_stall调研.md",
     "未命名.md",
     "Pasted image 20240416181251.png",
     "Pasted image 20240416181219.png",
