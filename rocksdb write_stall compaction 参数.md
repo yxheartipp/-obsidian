@@ -57,4 +57,31 @@ sudo ./db_bench --benchmarks=fillseq --use_existing_db=0 --dev=/dev/nvme0n2 --nu
 
 
 sudo ./db_bench --benchmarks="fillseq,stats" --batch_size=2048 --compression_type=none --dev=/dev/nvme0n2 --
-num=10000000 --value_size=4096 --fs_uri=bluefs_rpc:///dev/nvme0n2//mount/host
+num=10000000 --fs_uri=bluefs_rpc:///dev/nvme0n2//mount/host 
+
+
+
+./db_bench \
+--benchmarks="readwhilewriting,stats" \
+--enable_write_thread_adaptive_yield=false \
+--disable_auto_compactions=false \
+--max_background_compactions=32 \
+--max_background_flushes=4 \
+--write_buffer_size=536870912 \
+--min_write_buffer_number_to_merge=2 \
+--max_write_buffer_number=6 \
+--target_file_size_base=67108864 \
+--max_bytes_for_level_base=536870912 \
+--use_existing_keys=1 \
+--use_existing_db=1 \
+--num=500000000 \
+--threads=10 \
+--dev=/dev/nvme0n2 \
+--fs_uri=bluefs_rpc:///dev/nvme0n2//mount/host
+
+
+
+sudo ./db_bench --benchmarks="readwhilewriting" --batch_size=2048 --compression_type=none --dev=/dev/nvme0n2 --num=10000000 --fs_uri=bluefs_rpc:///dev/nvme0n2//mount/host --statistics=0  --stats_per_interval=1 --stats_interval_seconds=5 --report_interval_seconds=5 --report_file=./filltest.csv --db=db --max_background_compactions=1 --threads=10
+
+
+sudo ./db_bench --benchmarks="readwhilewriting" --batch_size=2048 --compression_type=none --dev=/dev/nvme0n2 --num=10000000 --fs_uri=bluefs_rpc:///dev/nvme0n2//mount/host --statistics=0  --stats_per_interval=1 --stats_interval_seconds=5 --report_interval_seconds=5 --report_file=./filltest.csv --db=db --max_background_compactions=1 --threads=10
