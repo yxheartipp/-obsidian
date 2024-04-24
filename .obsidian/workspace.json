@@ -194,6 +194,7 @@
   "active": "28aa4321bcab2d3a",
   "lastOpenFiles": [
     "参数分析.md",
+    "rocksdb write_stall compaction 参数.md",
     "Pasted image 20240424145448.png",
     "Pasted image 20240424145353.png",
     "Pasted image 20240424145202.png",
@@ -203,7 +204,6 @@
     "Pasted image 20240424140225.png",
     "Pasted image 20240424115424.png",
     "Pasted image 20240424115334.png",
-    "rocksdb write_stall compaction 参数.md",
     "rocksdb write_stall调研.md",
     "未命名.md",
     "Pasted image 20240416181251.png",
