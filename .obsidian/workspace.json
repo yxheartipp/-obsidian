@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0d9a649f51246188",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "remote_compaction 盘上测试情况.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rocksdb write_stall compaction 参数.md",
+                "file": "remote_compaction 盘上测试情况.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rocksdb write_stall compaction 参数.md",
+                "file": "remote_compaction 盘上测试情况.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rocksdb write_stall compaction 参数.md"
+                "file": "remote_compaction 盘上测试情况.md"
               }
             }
           },
@@ -191,22 +203,23 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "28aa4321bcab2d3a",
+  "active": "0d9a649f51246188",
   "lastOpenFiles": [
     "参数分析.md",
+    "remote_compaction 盘上测试情况.md",
     "rocksdb write_stall compaction 参数.md",
+    "error.png",
+    "R_W_host.png",
+    "cpu_host.png",
+    "R_W_remote.png",
+    "cpu_remote.png",
     "Pasted image 20240424145448.png",
     "Pasted image 20240424145353.png",
     "Pasted image 20240424145202.png",
     "Pasted image 20240424143721.png",
     "Pasted image 20240424143645.png",
-    "Pasted image 20240424140407.png",
-    "Pasted image 20240424140225.png",
-    "Pasted image 20240424115424.png",
-    "Pasted image 20240424115334.png",
     "rocksdb write_stall调研.md",
     "未命名.md",
-    "Pasted image 20240416181251.png",
     "未命名 4.md",
     "未命名 3.md",
     "未命名 2.md",
