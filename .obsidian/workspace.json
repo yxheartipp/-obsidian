@@ -102,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "48f8f747263c4238",
@@ -192,6 +193,9 @@
   },
   "active": "1210acdafe4c1384",
   "lastOpenFiles": [
+    "Pasted image 20240424145448.png",
+    "Pasted image 20240424145353.png",
+    "Pasted image 20240424145202.png",
     "Pasted image 20240424143721.png",
     "Pasted image 20240424143645.png",
     "Pasted image 20240424140407.png",
@@ -204,7 +208,6 @@
     "未命名.md",
     "Pasted image 20240416181251.png",
     "Pasted image 20240416181219.png",
-    "Pasted image 20240416141558.png",
     "未命名 4.md",
     "未命名 3.md",
     "未命名 2.md",
@@ -214,7 +217,6 @@
     "Templates/TP-KG-Link.md",
     "Templates/TP-SM-Dismiss.md",
     "Reading/释放图谱的力量——KG笔记法.md",
-    "Pasted image 20221231135006.png",
     "test1.md"
   ]
 }
