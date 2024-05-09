@@ -11,8 +11,12 @@
             "id": "b473521cf3ca46d0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "硬件加速数据库调研.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "48f8f747263c4238",
@@ -89,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "remote_compaction 盘上测试情况.md",
+                "file": "硬件加速数据库调研.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "remote_compaction 盘上测试情况.md",
+                "file": "硬件加速数据库调研.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "remote_compaction 盘上测试情况.md"
+                "file": "硬件加速数据库调研.md"
               }
             }
           },
@@ -161,8 +166,9 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "f8f0a014c7f4eca8",
+  "active": "b473521cf3ca46d0",
   "lastOpenFiles": [
+    "硬件加速数据库调研.md",
     "参数分析.md",
     "remote_compaction 盘上测试情况.md",
     "Pasted image 20240424184803.png",
