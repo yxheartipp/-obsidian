@@ -168,6 +168,8 @@
   },
   "active": "b473521cf3ca46d0",
   "lastOpenFiles": [
+    "Pasted image 20240509181006.png",
+    "Pasted image 20240509180637.png",
     "硬件加速数据库调研.md",
     "参数分析.md",
     "remote_compaction 盘上测试情况.md",
@@ -181,7 +183,6 @@
     "cpu_remote.png",
     "Pasted image 20240424145448.png",
     "Pasted image 20240424145353.png",
-    "Pasted image 20240424145202.png",
     "rocksdb write_stall调研.md",
     "未命名.md",
     "未命名 4.md",
