@@ -64,3 +64,19 @@ sudo ./db_bench --benchmarks=overwrite --use_existing_db=1 --dev=/dev/nvme0n2 --
 ### host_compact
 ![[Pasted image 20240513141624.png]]
 ## CPU利用率
+### remote_compact_user_nvme
+![[cpu_big_remote.png]]
+### host
+![[host_big_cpu.png]]
+## QPS
+### remote_compact_user_nvme
+![[Pasted image 20240513143029.png]]
+### host_compact
+![[Pasted image 20240513143041.png]]
+## 整体用时
+### remote_compact_user_nvme
+![[remote_with_big_slow_down.png]]
+### host_compact
+![[host_with_big_slow_down.png]]
+## 总结
+在使用user_nvme在给盘上更多的处理时间，减少slowdown被触发的阈值。可以体现出remote_compact的优势。
