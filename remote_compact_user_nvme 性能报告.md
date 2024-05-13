@@ -39,4 +39,12 @@ sudo ./db_bench --benchmarks=overwrite --use_existing_db=1 --dev=/dev/nvme0n2 --
 #### host_compact
 ![[Pasted image 20240424184803.png]]
 #### QPS总结
-因为使用pread, pwrite时，remote_compact有yi'ge'bu'fe
+因为使用pread, pwrite时，remote_compact有一部分计算工作已经由主机侧完成了，所以在20s-40s时，remote_compact有一定的提升。但是使用user_nvme的remote_compact任然在整体时间上优于使用pread,pwrite的版本。但是通过qps的时间曲线可以看出。主机侧在10s-15s仅用5s就完成了compact的一系列计算操作，而remote_compact需要接近30s才可以完成一条compact操作，计算时间较长。
+## 总结
+### 整体用时
+### remote_compact_user_nvme
+![[remote_user_4K.png]]
+### host_compact
+![[overwrite_host.png]]
+
+使用user_nvme接口的remote_compact 有效的降低了由主机侧进行compact操作产生的负载。更高的等待用时，还是因为盘上的计算效率而不是磁盘的写入速度。采用同时写入和读取的bench_mark可能更明显的能体现出优势。

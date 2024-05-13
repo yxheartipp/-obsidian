@@ -180,6 +180,8 @@
   },
   "active": "44dbe43957c58a11",
   "lastOpenFiles": [
+    "overwrite_host.png",
+    "remote_user_4K.png",
     "qps_user_nvme.png",
     "remote_compaction 盘上测试情况.md",
     "remote_compact_user_nvme 性能报告.md",
@@ -192,8 +194,6 @@
     "Pasted image 20240416181219.png",
     "Pasted image 20240416141558.png",
     "Pasted image 20240509181006.png",
-    "Pasted image 20240509182337.png",
-    "cpu_host 1.png",
     "rocks_db_cloud.md",
     "参数分析.md",
     "rocksdb write_stall调研.md",
