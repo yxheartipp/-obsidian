@@ -4,20 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "c94d2b1175cbf3be",
+        "id": "3b0b1c6b1087f530",
         "type": "tabs",
         "children": [
           {
-            "id": "b473521cf3ca46d0",
+            "id": "c1010908cb5bd02e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "cpu_remote.png"
+                "file": "remote_compaction 盘上测试情况.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44dbe43957c58a11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "remote_compact_user_nvme 性能报告.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpu_remote.png",
+                "file": "remote_compact_user_nvme 性能报告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpu_remote.png",
+                "file": "remote_compact_user_nvme 性能报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpu_remote.png"
+                "file": "remote_compact_user_nvme 性能报告.md"
               }
             }
           },
@@ -163,24 +178,25 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "b473521cf3ca46d0",
+  "active": "44dbe43957c58a11",
   "lastOpenFiles": [
     "remote_compaction 盘上测试情况.md",
+    "remote_compact_user_nvme 性能报告.md",
+    "remote_4K_user_IO.png",
+    "cpu_remote.png",
     "硬件加速数据库调研.md",
+    "Pasted image 20240424143721.png",
+    "Pasted image 20240424115424.png",
+    "Pasted image 20240416181219.png",
+    "Pasted image 20240416141558.png",
+    "Pasted image 20240509181006.png",
+    "Pasted image 20240509182337.png",
+    "cpu_host 1.png",
+    "remote_4K_user_CPU.png",
     "rocks_db_cloud.md",
     "参数分析.md",
     "rocksdb write_stall调研.md",
-    "Pasted image 20240509182337.png",
-    "piops实现.png",
-    "Pasted image 20240509181006.png",
-    "Pasted image 20240509180637.png",
-    "Pasted image 20240424184803.png",
-    "Pasted image 20240424184706.png",
     "rocksdb write_stall compaction 参数.md",
-    "error.png",
-    "R_W_host.png",
-    "cpu_host.png",
-    "R_W_remote.png",
     "未命名.md",
     "未命名 4.md",
     "未命名 3.md",
