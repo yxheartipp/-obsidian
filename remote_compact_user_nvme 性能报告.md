@@ -78,5 +78,10 @@ sudo ./db_bench --benchmarks=overwrite --use_existing_db=1 --dev=/dev/nvme0n2 --
 ![[remote_with_big_slow_down.png]]
 ### host_compact
 ![[host_with_big_slow_down.png]]
+## 读取校验
+### read_random_remote
+![[Snipaste_2024-05-13_15-06-32.png]]
+### read_random_host
+![[Snipaste_2024-05-13_15-10-23.png]]
 ## 总结
-在使用user_nvme在给盘上更多的处理时间，减少slowdown被触发的阈值。可以体现出remote_compact的优势。用时低于host，CPU小于host。写入IO接近，读取IO接近为0
+在使用user_nvme在给盘上更多的处理时间，减少slowdown被触发的阈值。可以体现出remote_compact的优势。用时低于host，CPU小于host。写入IO接近，读取IO接近为0。
