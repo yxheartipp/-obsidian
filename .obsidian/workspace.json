@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:review",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -167,6 +168,8 @@
   },
   "active": "33a4c55332ceb104",
   "lastOpenFiles": [
+    "未命名 1.md",
+    "硬件加速数据库调研.md",
     "piops实现.png",
     "remote_compact_user_nvme 性能报告.md",
     "sqlite.md",
@@ -180,9 +183,7 @@
     "remote_with_big_slow_down.png",
     "host_big_cpu.png",
     "cpu_big_remote.png",
-    "Pasted image 20240513141624.png",
     "Reading/ob渐进阅读方法.md",
-    "硬件加速数据库调研.md",
     "rocks_db_cloud.md",
     "参数分析.md",
     "rocksdb write_stall调研.md",
