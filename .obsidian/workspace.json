@@ -18,6 +18,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "399d4e3db0062d91",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -144,14 +152,29 @@
               "type": "review-queue-list-view",
               "state": {}
             }
+          },
+          {
+            "id": "19f0c282050d8e60",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "b1f790c8d8f3088c",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 343.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,11 +185,14 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
-      "obsidian-spaced-repetition:复习卡片": false
+      "obsidian-spaced-repetition:复习卡片": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "f8f0a014c7f4eca8",
+  "active": "b1f790c8d8f3088c",
   "lastOpenFiles": [
+    "smart-chats",
     "remote_compaction 盘上测试情况.md",
     "未命名 1.canvas",
     "未命名.canvas",
