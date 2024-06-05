@@ -170,11 +170,12 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 343.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,8 +191,11 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "b1f790c8d8f3088c",
+  "active": "f85f842099d43224",
   "lastOpenFiles": [
+    "rocksdb write_stall compaction 参数.md",
+    "rocksdb write_stall调研.md",
+    "remote_compact_user_nvme 性能报告.md",
     "smart-chats",
     "remote_compaction 盘上测试情况.md",
     "未命名 1.canvas",
@@ -199,7 +203,6 @@
     "硬件加速数据库调研.md",
     "未命名 1.md",
     "piops实现.png",
-    "remote_compact_user_nvme 性能报告.md",
     "sqlite.md",
     "cpu_remote 1.png",
     "Snipaste_2024-05-13_15-10-23.png",
@@ -213,8 +216,6 @@
     "Reading/ob渐进阅读方法.md",
     "rocks_db_cloud.md",
     "参数分析.md",
-    "rocksdb write_stall调研.md",
-    "rocksdb write_stall compaction 参数.md",
     "未命名.md",
     "未命名 4.md",
     "未命名 3.md",
