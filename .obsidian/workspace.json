@@ -27,7 +27,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "remote_compact_user_nvme 性能报告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "remote_compact_user_nvme 性能报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "remote_compact_user_nvme 性能报告.md"
-              }
+              "state": {}
             }
           },
           {
@@ -186,16 +183,14 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
-      "obsidian-spaced-repetition:复习卡片": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "f85f842099d43224",
+  "active": "399d4e3db0062d91",
   "lastOpenFiles": [
+    "remote_compact_user_nvme 性能报告.md",
     "rocksdb write_stall compaction 参数.md",
     "rocksdb write_stall调研.md",
-    "remote_compact_user_nvme 性能报告.md",
     "smart-chats",
     "remote_compaction 盘上测试情况.md",
     "未命名 1.canvas",
