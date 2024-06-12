@@ -102,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "48f8f747263c4238",
@@ -209,6 +210,8 @@
   },
   "active": "58d942954818e31b",
   "lastOpenFiles": [
+    "Pasted image 20240612100002.png",
+    "Pasted image 20240612095944.png",
     "Pasted image 20240611175521.png",
     "remote_compaction 盘上测试情况.md",
     "SeaStore.md",
@@ -229,8 +232,6 @@
     "Pasted image 20240513143029.png",
     "host_with_big_slow_down.png",
     "remote_with_big_slow_down.png",
-    "host_big_cpu.png",
-    "cpu_big_remote.png",
     "Reading/ob渐进阅读方法.md",
     "rocks_db_cloud.md",
     "参数分析.md",
