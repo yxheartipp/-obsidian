@@ -66,7 +66,6 @@ Crimson OSD 提交和完成 IO 任务，以及在 Seastar 和 BlueStore 线程�
 
 Crimson 支持三种 ObjectStore 后端：AlienStore、CyanStore 和 SeaStore。AlienStore 提供与 BlueStore 的向后兼容性。CyanStore 是用于测试的虚拟后端，由易失性内存实现。SeaStore 是一种新的对象存储，专为 Crimson OSD 设计，采用 ​`​shared-nothing ​`​设计。根据后端的具体目标，实现多分片支持的路径是不同的。
 
-
 AlienStore 是 Seastar 线程中的一个瘦代理，用于与使用 POSIX 线程的 BlueStore 进行通信。对于多个 OSD 分片没有特别的工作要做，因为 IO 任务通信同步了。BlueStore 中没有为 Crimson 定制其他内容，因为不可能真正将 BlueStore 扩展到 shared-nothing 设计，因为它依赖于第 三 方 RocksDB 项目，而 RocksDB 仍然是线程的。但是，在 Crimson 能够拿出一个足够优化和足够稳定的原生存储后端解决方案（SeaStore）之前，合理的开销来换取复杂的存储后端解决方案是可以接受的。
 
 SeaStore 是 Crimson OSD 原生的 ObjectStore 解决方案，采用 Seastar 框架开发，采用相同的设计原则。
@@ -78,25 +77,6 @@ SeaStore 是 Crimson OSD 原生的 ObjectStore 解决方案，采用 Seastar 框
 第三个考虑是为异构存储设备和硬件加速器提供原生支持，让用户可以根据自己的需求平衡成本和性能。如果 Crimson 能够更好地控制整个存储堆栈，那么 Crimson 将更灵活地简化部署硬件组合的解决方案。
 
 SeaStore 在单分片读写方面已经可以正常使用，尽管在稳定性和性能改进方面仍有待努力。目前的努力仍然集中在架构上，而不是极端情况下的优化。它针对多分片 OSD 的设计很明确。与 CyanStore 一样，第一步是为每个 OSD 分片创建独立的 SeaStore 实例，每个实例都在存储设备的静态分区上运行。第二步是实现一个共享磁盘空间平衡器来动态调整分区，它应该可以在后台异步运行，因为 PG 已经以伪随机方式分配了用户 IO。SeaStore 实例可能不需要等于 OSD 分片的数量，根据性能分析，调整这个比例是后期工作的第三步。
-
-Seastar异步编程基石
-
-**Future**
-
-Future代表一个值可能未定的计算结果，这个结果可能现在不能马上得到，需要等待到将来某个时间点。这种future可以是网络传输的一个缓存，定时器的到期，磁盘写的完成等，它可以是任意一个需要等待的结果。一般我们把一个异步函数的返回值作为一个future，这个future最终向调用者提供结果。
-
-例如我们可以用future read来表示读取磁盘文件的结果，这个结果是一个int值，这个read函数没有任何等待，立马返回给我们一个future. 调用者调用future.available()检查值是否可用，一旦可用，就用future.get获取相应的值。
-
-**Promise**
-
-Promise顾名思义承诺，代表一个异步函数，这个异步函数返回future，并承诺在将来的某个时间点给future赋值。接口promise.get_Future获取对应的future，promise.set_value（T）给对应的future赋值。
-
-**Continuation**
-
-Continuation代表一段计算，最常用的就是Lambda函数。这些continuations通过future的then函数绑定到future上，then函数的输入参数就是绑定的future对象。当future 的值available时，这些绑定的continuations就会自动执行。
-
-Continuation最大的威力在于：一个continuation可以返回一个新的future，这个future又可以绑定新的continuation。这样就可以实现异步操作级联执行future.then().then().then()…。
-
 
 **1）为什么需要异步编程？**
 

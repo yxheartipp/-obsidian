@@ -42,9 +42,39 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3f28a4b1ea5b4db4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ceph-Crimson.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "b69640516a177268",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6afa2ca50ffa971a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ceph-Crimson.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,11 +240,12 @@
   },
   "active": "58d942954818e31b",
   "lastOpenFiles": [
+    "Ceph-Crimson.md",
+    "SeaStore.md",
     "Pasted image 20240612100002.png",
     "Pasted image 20240612095944.png",
     "Pasted image 20240611175521.png",
     "remote_compaction 盘上测试情况.md",
-    "SeaStore.md",
     "remote_compact_user_nvme 性能报告.md",
     "rocksdb write_stall compaction 参数.md",
     "rocksdb write_stall调研.md",
@@ -231,7 +262,6 @@
     "Pasted image 20240513143041.png",
     "Pasted image 20240513143029.png",
     "host_with_big_slow_down.png",
-    "remote_with_big_slow_down.png",
     "Reading/ob渐进阅读方法.md",
     "rocks_db_cloud.md",
     "参数分析.md",
