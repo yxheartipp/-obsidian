@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SeaStore.md",
+                "file": "Ceph-Crimson.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SeaStore.md",
+                "file": "Ceph-Crimson.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SeaStore.md"
+                "file": "Ceph-Crimson.md"
               }
             }
           },
@@ -238,10 +238,10 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "58d942954818e31b",
+  "active": "6afa2ca50ffa971a",
   "lastOpenFiles": [
-    "Ceph-Crimson.md",
     "SeaStore.md",
+    "Ceph-Crimson.md",
     "Pasted image 20240612100002.png",
     "Pasted image 20240612095944.png",
     "Pasted image 20240611175521.png",
