@@ -6,5 +6,30 @@ sr-due: 2024-06-15
 sr-interval: 1
 sr-ease: 250
 ---
+## 测试命令_bluefs
+### 填入
+```
+sudo ./db_bench --benchmarks=fillseq --dev=/dev/nvme0n2 --num=2000000 --fs_uri=bluefs_rpc:///dev/nvme0n2//mount/host --compression_type=none --db=db --level0_file_num_compaction_trigger=4 --allow_concurrent_memtable_write=false --level0_slowdown_writes_trigger=20 --level0_stop_writes_trigger=30  --max_write_buffer_number=2 --statistics=0 --value_size=4096 --key_size=20
+```
+###  覆盖写
+```
+sudo ./db_bench --benchmarks=overwrite --use_existing_db=1 --dev=/dev/nvme0n2 --num=1000000 --fs_uri=bluefs_rpc:///dev/nvme0n2//mount/host --compression_type=non
+e --db=db --level0_file_num_compaction_trigger=4 --max_background_jobs=3 --num_levels=6 --value_size=4096 --key_size=20 --remote_compact=1 --seed=6
+```
+
+## 测试命令_ext4
+### 填入
+```
+sudo ./db_bench --benchmarks=fillseq --dev=/dev/nvme0n2 --num=2000000 --compression_type=none --db=/mnt2/db --level0_file_num_compaction_trigger=4 --allow_concurrent_memtable_write=false --level0_slowdown_writes_trigger=20 --level0_stop_writes_trigger=30  --max_write_buffer_number=2 --statistics=0 --value_size=4096 --key_size=20
+```
+### 覆盖写
+```
+sudo ./db_bench --benchmarks=overwrite --use_existing_db=1 --dev=/dev/nvme0n2 --num=1000000 --compression_type=none --db=/mnt2/db --level0_file_num_compaction_trigger=4 --max_background_jobs=4 --num_levels=6 --value_size=4096 --key_size=20  --seed=6
+```
+
+## 情况分析
+对**i5ext4** 本地compaction, **i5_bluefs** remote_compaction 和盘上**Bluefs** remote_compaction。分别进行了2，3，4最大后台线程的覆盖写测试，大批量的触发remote_compaction。
+速度最快的是使用i5_bluefs 进行remote_compaction
+### i5_bluefs remote_compaction
 
 
