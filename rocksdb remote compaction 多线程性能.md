@@ -31,5 +31,36 @@ sudo ./db_bench --benchmarks=overwrite --use_existing_db=1 --dev=/dev/nvme0n2 --
 对**i5ext4** 本地compaction, **i5_bluefs** remote_compaction 和盘上**Bluefs** remote_compaction。分别进行了2，3，4最大后台线程的覆盖写测试，大批量的触发remote_compaction。
 速度最快的是使用i5_bluefs 进行remote_compaction
 ### i5_bluefs remote_compaction
+80万数据覆盖写
+### 2线程
+- 39785 ops/sec
+- 156.2 MB/s
+### 3线程
+- 47151 ops/sec
+- 185.1 MB/s
+### 4线程
+- 26057 ops/sec
+- 102.3 MB/s
+### i5_ext4 local_compaction
+### 2线程
+- 14365 ops/sec
+- 56.4 MB/s
+### 3线程
+- 21786 ops/sec
+- 85.5 MB/s
+### 4线程
+- 15951 ops/sec
+- 62.6 MB/s
+
+### 盘上bluefs remote_compaction
+### 2线程
+- 10908 ops/sec
+- 42.8 MB/s
+### 3线程
+- 11066 ops/sec
+- 43.4 MB/s
+### 4线程
+- 10992 ops/sec
+- 43.1 MB/s
 
 
