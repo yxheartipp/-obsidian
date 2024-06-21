@@ -66,9 +66,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "725ea51df98b479a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-21 16.13.00.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -143,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rocksdb remote compaction 多线程性能.md",
+                "file": "Excalidraw/Drawing 2024-06-21 16.13.00.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rocksdb remote compaction 多线程性能.md",
+                "file": "Excalidraw/Drawing 2024-06-21 16.13.00.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rocksdb remote compaction 多线程性能.md"
+                "file": "Excalidraw/Drawing 2024-06-21 16.13.00.excalidraw.md"
               }
             }
           },
@@ -232,8 +242,11 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "6ad75ce28402243c",
+  "active": "725ea51df98b479a",
   "lastOpenFiles": [
+    "rocksdb remote compaction 多线程性能.md",
+    "Excalidraw/Drawing 2024-06-21 16.13.00.excalidraw.md",
+    "Excalidraw",
     "100万4_thread_4K.png",
     "100万3_thread.png",
     "100万2_thread_4K.png",
@@ -244,10 +257,8 @@
     "h3 1.png",
     "h3.png",
     "h1.png",
-    "rocksdb remote compaction 多线程性能.md",
     "Ceph-Crimson.md",
     "SeaStore.md",
-    "Pasted image 20240612100002.png",
     "remote_compaction 盘上测试情况.md",
     "remote_compact_user_nvme 性能报告.md",
     "rocksdb write_stall compaction 参数.md",
