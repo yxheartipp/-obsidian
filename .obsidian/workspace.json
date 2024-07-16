@@ -76,9 +76,21 @@
                 "file": "Excalidraw/Drawing 2024-06-21 16.13.00.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "18c048b2b3937594",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rocksdb remote compaction 多线程性能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -136,8 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "48f8f747263c4238",
@@ -153,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-21 16.13.00.excalidraw.md",
+                "file": "rocksdb remote compaction 多线程性能.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-21 16.13.00.excalidraw.md",
+                "file": "rocksdb remote compaction 多线程性能.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-06-21 16.13.00.excalidraw.md"
+                "file": "rocksdb remote compaction 多线程性能.md"
               }
             }
           },
@@ -242,10 +253,13 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "725ea51df98b479a",
+  "active": "18c048b2b3937594",
   "lastOpenFiles": [
-    "rocksdb remote compaction 多线程性能.md",
+    "rocksdb write_stall compaction 参数.md",
+    "rocksdb write_stall调研.md",
+    "Excalidraw/Drawing 2024-06-22 11.47.04.excalidraw.md",
     "Excalidraw/Drawing 2024-06-21 16.13.00.excalidraw.md",
+    "rocksdb remote compaction 多线程性能.md",
     "Excalidraw",
     "100万4_thread_4K.png",
     "100万3_thread.png",
@@ -261,8 +275,6 @@
     "SeaStore.md",
     "remote_compaction 盘上测试情况.md",
     "remote_compact_user_nvme 性能报告.md",
-    "rocksdb write_stall compaction 参数.md",
-    "rocksdb write_stall调研.md",
     "smart-chats",
     "未命名 1.canvas",
     "未命名.canvas",
