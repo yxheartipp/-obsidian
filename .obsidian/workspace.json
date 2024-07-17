@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "remote_compact_user_nvme 性能报告.md",
+                "file": "rocksdb Iter优化总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SeaStore.md",
+                "file": "Reading/ob渐进阅读方法.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rocksdb Iter优化总结.md",
+                "file": "Reading/ob渐进阅读方法.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cho",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "48f8f747263c4238",
@@ -220,13 +218,19 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "880366b099a71481",
+  "active": "f8f0a014c7f4eca8",
   "lastOpenFiles": [
+    "2000d_bluefs_big_cache+user_nvme_io.png",
+    "remote_compact_user_nvme 性能报告.md",
+    "Reading/ob渐进阅读方法.md",
+    "rocksdb Iter优化总结.md",
     "rk3588 ext4.png",
+    "SeaStore.md",
+    "Pasted image 20240717192430.png",
+    "ext4_after reboot.png",
     "rocksdb_bluefs_rk3588_97.5MB.png",
     "Snipaste_2024-07-12_13-53-32.png",
     "Snipaste_2024-07-08_13-50-50.png",
-    "rocksdb Iter优化总结.md",
     "rocksdb write_stall compaction 参数.md",
     "rocksdb write_stall调研.md",
     "Excalidraw/Drawing 2024-06-22 11.47.04.excalidraw.md",
@@ -237,20 +241,14 @@
     "100万3_thread.png",
     "100万2_thread_4K.png",
     "100万4_thread_i5.png",
-    "100万3_thread_i5.png",
-    "100万2_thread_i5.png",
-    "i5_host 4.png",
     "Ceph-Crimson.md",
-    "SeaStore.md",
     "remote_compaction 盘上测试情况.md",
-    "remote_compact_user_nvme 性能报告.md",
     "smart-chats",
     "未命名 1.canvas",
     "未命名.canvas",
     "硬件加速数据库调研.md",
     "未命名 1.md",
     "sqlite.md",
-    "Reading/ob渐进阅读方法.md",
     "rocks_db_cloud.md",
     "参数分析.md",
     "未命名.md",

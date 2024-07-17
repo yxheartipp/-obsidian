@@ -23,4 +23,17 @@ bluefs 在rk3588上需要6.6秒可以对10条数据进行迭代，读取速度�
 与之相比ext4则只需要0.9s就可以完整读取，读取速度为**666.6MB/s**
 ![[rk3588 ext4.png]]
 
-后经过与王俊讨论分析，
+后经过与王俊讨论分析perf，发现大块的内存调用全部落在了page_cache上，清空系统的page_cache , 在相同参数配置下，ext4 文件系统的读取时间为7.41s左右，文件读取速率为**80.9MB/s**
+![[ext4_after reboot.png]]
+
+## 优化方向选择
+通过rk3588上性能分析，要优化rocksdb的读取性能，就要忍受相对大的写放大，通过调大rocksdb的block_size，调大读取选项中的readhead_size。同时将bluefs允许的bluefs_max_prefetch从1_M调整到512M, 加大预读取的数据量。
+最终在rk3588上10万条数据的读取耗时为3.6s，读取速率约为**162.1MB/s**。
+![[Pasted image 20240717192430.png]]
+
+## 最终优化结果
+在2000D上采用bufferd_io的方式通过user_nvme进行读写由于与directIO的文件描述符，打开方式不同，会触发文件系统问题。等待新版本user_nvme提供后进行进一步匹配。
+只才用direct_io的方式通过user_nvme+大buffer进行读写的方式在2000D上进行测试。
+![[2000d_bluefs_big_cache+user_nvme_io.png]]
+通过了多次的读测试，在2000D上10万条的读速度一般在6.7s左右。读取速率约为**88MB/s**
+
