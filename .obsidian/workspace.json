@@ -44,53 +44,19 @@
             }
           },
           {
-            "id": "3f28a4b1ea5b4db4",
+            "id": "880366b099a71481",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ceph-Crimson.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ad75ce28402243c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rocksdb remote compaction 多线程性能.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "725ea51df98b479a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-06-21 16.13.00.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "18c048b2b3937594",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rocksdb remote compaction 多线程性能.md",
+                "file": "rocksdb Iter优化总结.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -148,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "48f8f747263c4238",
@@ -164,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rocksdb remote compaction 多线程性能.md",
+                "file": "rocksdb Iter优化总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rocksdb remote compaction 多线程性能.md",
+                "file": "rocksdb Iter优化总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rocksdb remote compaction 多线程性能.md"
+                "file": "rocksdb Iter优化总结.md"
               }
             }
           },
@@ -253,8 +220,13 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "18c048b2b3937594",
+  "active": "880366b099a71481",
   "lastOpenFiles": [
+    "rk3588 ext4.png",
+    "rocksdb_bluefs_rk3588_97.5MB.png",
+    "Snipaste_2024-07-12_13-53-32.png",
+    "Snipaste_2024-07-08_13-50-50.png",
+    "rocksdb Iter优化总结.md",
     "rocksdb write_stall compaction 参数.md",
     "rocksdb write_stall调研.md",
     "Excalidraw/Drawing 2024-06-22 11.47.04.excalidraw.md",
@@ -268,9 +240,6 @@
     "100万3_thread_i5.png",
     "100万2_thread_i5.png",
     "i5_host 4.png",
-    "h3 1.png",
-    "h3.png",
-    "h1.png",
     "Ceph-Crimson.md",
     "SeaStore.md",
     "remote_compaction 盘上测试情况.md",
