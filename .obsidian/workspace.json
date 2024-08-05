@@ -4,52 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e2dae8bcfc808b8a",
+        "id": "90d248a79b5e3b8f",
         "type": "tabs",
         "children": [
           {
-            "id": "3e2434c7770b70a5",
+            "id": "b18b42c38d81f09d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rocksdb Iter优化总结.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "399d4e3db0062d91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "remote_compaction 盘上测试情况.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "58d942954818e31b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reading/ob渐进阅读方法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "880366b099a71481",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reading/ob渐进阅读方法.md",
+                "file": "sqlite-vec调研报告.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "48f8f747263c4238",
@@ -129,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rocksdb Iter优化总结.md",
+                "file": "sqlite-vec调研报告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rocksdb Iter优化总结.md",
+                "file": "sqlite-vec调研报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rocksdb Iter优化总结.md"
+                "file": "sqlite-vec调研报告.md"
               }
             }
           },
@@ -218,12 +183,15 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "f8f0a014c7f4eca8",
+  "active": "b18b42c38d81f09d",
   "lastOpenFiles": [
+    "sqlite_vector 2000D.png",
+    "sqlite.md",
+    "sqlite-vec调研报告.md",
+    "rocksdb Iter优化总结.md",
     "2000d_bluefs_big_cache+user_nvme_io.png",
     "remote_compact_user_nvme 性能报告.md",
     "Reading/ob渐进阅读方法.md",
-    "rocksdb Iter优化总结.md",
     "rk3588 ext4.png",
     "SeaStore.md",
     "Pasted image 20240717192430.png",
@@ -240,7 +208,6 @@
     "100万4_thread_4K.png",
     "100万3_thread.png",
     "100万2_thread_4K.png",
-    "100万4_thread_i5.png",
     "Ceph-Crimson.md",
     "remote_compaction 盘上测试情况.md",
     "smart-chats",
@@ -248,7 +215,6 @@
     "未命名.canvas",
     "硬件加速数据库调研.md",
     "未命名 1.md",
-    "sqlite.md",
     "rocks_db_cloud.md",
     "参数分析.md",
     "未命名.md",
