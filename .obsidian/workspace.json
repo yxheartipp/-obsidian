@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6dcc69ff1eb6e168",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "delede对应.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sqlite-vec调研报告.md",
+                "file": "delede对应.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sqlite-vec调研报告.md",
+                "file": "delede对应.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sqlite-vec调研报告.md"
+                "file": "delede对应.md"
               }
             }
           },
@@ -183,12 +196,14 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "b18b42c38d81f09d",
+  "active": "6dcc69ff1eb6e168",
   "lastOpenFiles": [
+    "sqlite-vec调研报告.md",
+    "delede对应.md",
+    "Excalidraw/Drawing 2024-08-07 15.10.00.excalidraw.md",
     "Pasted image 20240805164745.png",
     "sqlite_vector 2000D.png",
     "sqlite.md",
-    "sqlite-vec调研报告.md",
     "rocksdb Iter优化总结.md",
     "2000d_bluefs_big_cache+user_nvme_io.png",
     "remote_compact_user_nvme 性能报告.md",
@@ -207,7 +222,6 @@
     "rocksdb remote compaction 多线程性能.md",
     "Excalidraw",
     "100万4_thread_4K.png",
-    "100万3_thread.png",
     "Ceph-Crimson.md",
     "remote_compaction 盘上测试情况.md",
     "smart-chats",
@@ -223,7 +237,6 @@
     "README.md",
     "Templates/TP-KG-Link.md",
     "Templates/TP-SM-Dismiss.md",
-    "Reading/释放图谱的力量——KG笔记法.md",
-    "test1.md"
+    "Reading/释放图谱的力量——KG笔记法.md"
   ]
 }
