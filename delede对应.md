@@ -34,8 +34,9 @@ STORE_ERR_INVALID_PARAM           0x36                          不可以删除
 ```text
 | error | code | status |
 |:------|:-------:|------:|
-| STORE_ERR_DELETE_DB | 0x686 | 删除失败 |
+| STORE_ERR_DELETE_FILE | 0x64 | 删除文件失败 |
 | STORE_ERR_OPEN_DB | 0x30 | 默认db打开失败 |
 | STORE_ERR_NO_EXIST | 0x59 | 当前知识库已经被删除 |
-| STORE_ERR_DB_IS_USED | 0x58 | 当前文件夹正在被其他人使用 |
+| STORE_ERR_FILE_ALLREDAY_DEL | 0x71| 当前文件已经被删除了 |
+| STORE_ERR_FILE_NO_EXIST | 0x70 | 当前文件 |
 ```
