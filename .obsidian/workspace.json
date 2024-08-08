@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "90d248a79b5e3b8f",
+        "id": "de6107301c770a26",
         "type": "tabs",
         "children": [
           {
-            "id": "0c06af4d4ebe8f3e",
+            "id": "a3d72edb8e83d0e7",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -181,10 +181,13 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "0c06af4d4ebe8f3e",
+  "active": "a3d72edb8e83d0e7",
   "lastOpenFiles": [
-    "delede对应.md",
+    "未命名 2.canvas",
+    "Excalidraw/Drawing 2024-08-08 16.19.00.excalidraw.md",
     "Excalidraw/Drawing 2024-08-08 15.34.21.excalidraw.md",
+    "Reading/ob渐进阅读方法.md",
+    "delede对应.md",
     "sqlite-vec调研报告.md",
     "Excalidraw/Drawing 2024-08-07 15.10.00.excalidraw.md",
     "Pasted image 20240805164745.png",
@@ -193,7 +196,6 @@
     "rocksdb Iter优化总结.md",
     "2000d_bluefs_big_cache+user_nvme_io.png",
     "remote_compact_user_nvme 性能报告.md",
-    "Reading/ob渐进阅读方法.md",
     "rk3588 ext4.png",
     "SeaStore.md",
     "Pasted image 20240717192430.png",
@@ -220,8 +222,6 @@
     "未命名.md",
     "未命名 4.md",
     "未命名 3.md",
-    "README.md",
-    "Templates/TP-KG-Link.md",
-    "Templates/TP-SM-Dismiss.md"
+    "README.md"
   ]
 }
