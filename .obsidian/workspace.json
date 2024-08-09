@@ -16,8 +16,21 @@
                 "file": "Excalidraw/Drawing 2024-08-08 15.34.21.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "7337a712c47c7162",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Excalidraw/未命名.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "48f8f747263c4238",
@@ -92,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-08 15.34.21.excalidraw.md",
+                "file": "Excalidraw/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-08 15.34.21.excalidraw.md",
+                "file": "Excalidraw/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-08 15.34.21.excalidraw.md"
+                "file": "Excalidraw/未命名.md"
               }
             }
           },
@@ -181,11 +193,12 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "a3d72edb8e83d0e7",
+  "active": "7337a712c47c7162",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-08-08 15.34.21.excalidraw.md",
+    "Excalidraw/未命名.md",
     "未命名 2.canvas",
     "Excalidraw/Drawing 2024-08-08 16.19.00.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-08 15.34.21.excalidraw.md",
     "Reading/ob渐进阅读方法.md",
     "delede对应.md",
     "sqlite-vec调研报告.md",
