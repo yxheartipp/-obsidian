@@ -28,9 +28,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ed32afca83c4b825",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-12 10.03.22.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/未命名.md",
+                "file": "Excalidraw/Drawing 2024-08-12 10.03.22.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/未命名.md",
+                "file": "Excalidraw/Drawing 2024-08-12 10.03.22.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/未命名.md"
+                "file": "Excalidraw/Drawing 2024-08-12 10.03.22.excalidraw.md"
               }
             }
           },
@@ -193,10 +203,11 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "7337a712c47c7162",
+  "active": "ed32afca83c4b825",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-08-08 15.34.21.excalidraw.md",
     "Excalidraw/未命名.md",
+    "Excalidraw/Drawing 2024-08-12 10.03.22.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-08 15.34.21.excalidraw.md",
     "未命名 2.canvas",
     "Excalidraw/Drawing 2024-08-08 16.19.00.excalidraw.md",
     "Reading/ob渐进阅读方法.md",
@@ -234,7 +245,6 @@
     "参数分析.md",
     "未命名.md",
     "未命名 4.md",
-    "未命名 3.md",
-    "README.md"
+    "未命名 3.md"
   ]
 }
