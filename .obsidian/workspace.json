@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Excalidraw/未命名 1.md",
+                "file": "未命名 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/未命名 1.md",
+                "file": "未命名 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/未命名 1.md",
+                "file": "未命名 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/未命名 1.md"
+                "file": "未命名 1.md"
               }
             }
           },
@@ -217,46 +217,45 @@
   },
   "active": "359f97e9bc1d3121",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-08-12 10.03.22.excalidraw.md",
+    "未命名 2.canvas",
+    "未命名.md",
+    "delede对应.md",
+    "overwrite_host.png",
+    "piops实现.png",
+    "README.md",
+    "remote_compact_user_nvme 性能报告.md",
+    "remote_compaction 盘上测试情况.md",
+    "rocks_db_cloud.md",
+    "rocksdb Iter优化总结.md",
+    "rocksdb remote compaction 多线程性能.md",
+    "rocksdb write_stall compaction 参数.md",
+    "rocksdb write_stall调研.md",
+    "SeaStore.md",
+    "sqlite-vec调研报告.md",
+    "sqlite_vector 2000D.png",
+    "Snipaste_2024-07-12_13-53-32.png",
+    "未命名.canvas",
     "Excalidraw/未命名 1.md",
+    "Excalidraw/Drawing 2024-08-12 10.03.22.excalidraw.md",
     "Excalidraw/未命名.md",
     "Excalidraw/Drawing 2024-08-08 15.34.21.excalidraw.md",
-    "未命名 2.canvas",
     "Excalidraw/Drawing 2024-08-08 16.19.00.excalidraw.md",
     "Reading/ob渐进阅读方法.md",
-    "delede对应.md",
-    "sqlite-vec调研报告.md",
     "Excalidraw/Drawing 2024-08-07 15.10.00.excalidraw.md",
     "Pasted image 20240805164745.png",
-    "sqlite_vector 2000D.png",
     "sqlite.md",
-    "rocksdb Iter优化总结.md",
     "2000d_bluefs_big_cache+user_nvme_io.png",
-    "remote_compact_user_nvme 性能报告.md",
     "rk3588 ext4.png",
-    "SeaStore.md",
     "Pasted image 20240717192430.png",
     "ext4_after reboot.png",
     "rocksdb_bluefs_rk3588_97.5MB.png",
-    "Snipaste_2024-07-12_13-53-32.png",
-    "Snipaste_2024-07-08_13-50-50.png",
-    "rocksdb write_stall compaction 参数.md",
-    "rocksdb write_stall调研.md",
     "Excalidraw/Drawing 2024-06-22 11.47.04.excalidraw.md",
     "Excalidraw/Drawing 2024-06-21 16.13.00.excalidraw.md",
-    "rocksdb remote compaction 多线程性能.md",
     "Excalidraw",
-    "100万4_thread_4K.png",
     "Ceph-Crimson.md",
-    "remote_compaction 盘上测试情况.md",
     "smart-chats",
     "未命名 1.canvas",
-    "未命名.canvas",
     "硬件加速数据库调研.md",
-    "未命名 1.md",
-    "rocks_db_cloud.md",
-    "参数分析.md",
-    "未命名.md",
-    "未命名 4.md"
+    "未命名 1.md"
   ]
 }
