@@ -8,51 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a3d72edb8e83d0e7",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-08-08 15.34.21.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "7337a712c47c7162",
+            "id": "a31a33b5566346df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Excalidraw/未命名.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed32afca83c4b825",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-08-12 10.03.22.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "359f97e9bc1d3121",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名 1.md",
+                "file": "分布式方案数据库表单.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "48f8f747263c4238",
@@ -126,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 1.md",
+                "file": "分布式方案数据库表单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名 1.md",
+                "file": "分布式方案数据库表单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 1.md"
+                "file": "分布式方案数据库表单.md"
               }
             }
           },
@@ -215,8 +183,10 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "359f97e9bc1d3121",
+  "active": "a31a33b5566346df",
   "lastOpenFiles": [
+    "未命名 1.md",
+    "分布式方案数据库表单.md",
     "未命名 2.canvas",
     "未命名.md",
     "delede对应.md",
@@ -255,7 +225,6 @@
     "Ceph-Crimson.md",
     "smart-chats",
     "未命名 1.canvas",
-    "硬件加速数据库调研.md",
-    "未命名 1.md"
+    "硬件加速数据库调研.md"
   ]
 }
