@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c9961040b11031bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "redis-单节点启动方式.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "分布式方案数据库表单.md",
+                "file": "redis-单节点启动方式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "分布式方案数据库表单.md",
+                "file": "redis-单节点启动方式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "分布式方案数据库表单.md"
+                "file": "redis-单节点启动方式.md"
               }
             }
           },
@@ -182,10 +195,11 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "a31a33b5566346df",
+  "active": "c9961040b11031bf",
   "lastOpenFiles": [
-    "未命名 1.md",
     "分布式方案数据库表单.md",
+    "redis-单节点启动方式.md",
+    "未命名 1.md",
     "未命名 2.canvas",
     "未命名.md",
     "delede对应.md",
@@ -223,7 +237,6 @@
     "Excalidraw",
     "Ceph-Crimson.md",
     "smart-chats",
-    "未命名 1.canvas",
-    "硬件加速数据库调研.md"
+    "未命名 1.canvas"
   ]
 }
