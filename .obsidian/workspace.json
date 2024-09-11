@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "参数分析.md",
+                "file": "redis-单节点启动方式.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "参数分析.md",
+                "file": "redis-单节点启动方式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "参数分析.md",
+                "file": "redis-单节点启动方式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "参数分析.md"
+                "file": "redis-单节点启动方式.md"
               }
             }
           },
@@ -197,6 +197,7 @@
   },
   "active": "c9961040b11031bf",
   "lastOpenFiles": [
+    "参数分析.md",
     "rocksdb remote compaction 多线程性能.md",
     "rocksdb Iter优化总结.md",
     "rocks_db_cloud.md",
@@ -209,7 +210,6 @@
     "硬件加速数据库调研.md",
     "分布式方案数据库表单.md",
     "2000d_bluefs_big_cache+user_nvme_io.png",
-    "参数分析.md",
     "rocksdb write_stall compaction 参数.md",
     "未命名 1.md",
     "未命名 2.canvas",
