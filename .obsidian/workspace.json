@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "redis-单节点启动方式.md",
+                "file": "参数分析.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redis-单节点启动方式.md",
+                "file": "参数分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redis-单节点启动方式.md",
+                "file": "参数分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redis-单节点启动方式.md"
+                "file": "参数分析.md"
               }
             }
           },
@@ -197,21 +197,25 @@
   },
   "active": "c9961040b11031bf",
   "lastOpenFiles": [
-    "分布式方案数据库表单.md",
+    "rocksdb remote compaction 多线程性能.md",
+    "rocksdb Iter优化总结.md",
+    "rocks_db_cloud.md",
+    "remote_compaction 盘上测试情况.md",
+    "remote_compact_user_nvme 性能报告.md",
     "redis-单节点启动方式.md",
+    "README.md",
+    "delede对应.md",
+    "Ceph-Crimson.md",
+    "硬件加速数据库调研.md",
+    "分布式方案数据库表单.md",
+    "2000d_bluefs_big_cache+user_nvme_io.png",
+    "参数分析.md",
+    "rocksdb write_stall compaction 参数.md",
     "未命名 1.md",
     "未命名 2.canvas",
     "未命名.md",
-    "delede对应.md",
     "overwrite_host.png",
     "piops实现.png",
-    "README.md",
-    "remote_compact_user_nvme 性能报告.md",
-    "remote_compaction 盘上测试情况.md",
-    "rocks_db_cloud.md",
-    "rocksdb Iter优化总结.md",
-    "rocksdb remote compaction 多线程性能.md",
-    "rocksdb write_stall compaction 参数.md",
     "rocksdb write_stall调研.md",
     "SeaStore.md",
     "sqlite-vec调研报告.md",
@@ -227,15 +231,11 @@
     "Excalidraw/Drawing 2024-08-07 15.10.00.excalidraw.md",
     "Pasted image 20240805164745.png",
     "sqlite.md",
-    "2000d_bluefs_big_cache+user_nvme_io.png",
     "rk3588 ext4.png",
     "Pasted image 20240717192430.png",
     "ext4_after reboot.png",
     "rocksdb_bluefs_rk3588_97.5MB.png",
-    "Excalidraw/Drawing 2024-06-22 11.47.04.excalidraw.md",
-    "Excalidraw/Drawing 2024-06-21 16.13.00.excalidraw.md",
     "Excalidraw",
-    "Ceph-Crimson.md",
     "smart-chats",
     "未命名 1.canvas"
   ]
