@@ -61,3 +61,14 @@ _class_deepspeed.zero.TiledLinear(_in_features_, _out_features_, _bias=True_,�
 
 
 ![[Pasted image 20240919145223.png]]
+
+
+参数交换
+![[Pasted image 20240919151503.png]]
+
+
+优化器交换
+![[Pasted image 20240919151604.png]]
+
+梯度交换
+![[Pasted image 20240919151632.png]]
