@@ -38,3 +38,6 @@ ZeRO-Infinity 设计了一种强大的卸载机制，称为无穷大卸载引擎
 
 DS_BUILD_OPS=1 DS_BUILD_AIO=1 DS_BUILD_GDS=0 DS_BUILD_EVOFORMER_ATTN=0  DS_BUILD_CUTLASS_OPS=0 DS_BUILD_RAGGED_DEVICE_OPS=0 pip install deepspeed --no-ca
 che
+
+
+_class_deepspeed.zero.TiledLinear(_in_features_, _out_features_, _bias=True_, _in_splits=1_, _out_splits=1_, _input_is_already_split=False_, _combine_out_splits=True_, _linear_cls=<class 'torch.nn.modules.linear.Linear'>_, _init_linear=None_, _**kwargs_)
