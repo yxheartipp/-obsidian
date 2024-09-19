@@ -34,3 +34,7 @@ ZeRO-Infinity 设计了一种强大的卸载机制，称为无穷大卸载引擎
 实际上，这极具挑战性，因为 CPU 内存比 GPU 内存带宽慢一个数量级，而 NVMe 带宽但比 CPU 内存带宽慢一个数量级。此外，从 GPU 读取和写入这些内存甚至更慢（见图 2b）。
 
 这提出了两个问题：i) 对于大型模型，即使在 CPU 内存中，激活内存也会变得太大而无法拟合，并且 ii) 当扩展到数百或数千个 GPU 以实现有效收敛时，有效的批量大小变得太大。
+
+
+DS_BUILD_OPS=1 DS_BUILD_AIO=1 DS_BUILD_GDS=0 DS_BUILD_EVOFORMER_ATTN=0  DS_BUILD_CUTLASS_OPS=0 DS_BUILD_RAGGED_DEVICE_OPS=0 pip install deepspeed --no-ca
+che
