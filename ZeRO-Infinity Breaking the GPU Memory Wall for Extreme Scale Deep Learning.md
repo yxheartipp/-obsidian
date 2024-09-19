@@ -41,3 +41,12 @@ che
 
 
 _class_deepspeed.zero.TiledLinear(_in_features_, _out_features_, _bias=True_, _in_splits=1_, _out_splits=1_, _input_is_already_split=False_, _combine_out_splits=True_, _linear_cls=<class 'torch.nn.modules.linear.Linear'>_, _init_linear=None_, _**kwargs_)
+
+**3.由于ZeRO-Infinity是建立在ZeRO-3之上的，因此在将优化器状态卸载到CPU内存时，它还可以利用聚合GPU和CPU内存带宽以及用于优化器步骤的聚合CPU计算**。然而，**使用NVMe卸载**，有必要**将数据从NVMe带到CPU内存中，然后以适合CPU内存的块的形式返回，以执行优化步骤，每次一个块**。
+
+**ZeRO-Infinity有一个重叠引擎（** **overlap engine），它不仅将GPU-GPU通信与GPU计算重叠，还将NVMe与CPU、CPU与GPU通信重叠（，所有这些都在同一时间进行**。**重叠引擎有两个组成部分:i)一个动态预取器（dynamic prefetcher），用于在向前或向后传递中消耗参数之前，重叠重建参数所需的数据移动【在 FWD/BWD 时，要使用参数之前，并行执行参数的移动。实时跟踪 FWD/BWDW，构建每次迭代的算子序列的内部映射，跟踪算子序列的位置，并行加载即将执行算子的参数，如在执行算子的计算时，对即将执行的 3 个算子依次并行执行 NVMe → CPU，CPU → GPU 和 GPU → GPU。当 FWD/BWD 发生变化时，也可以更新算子序列映射。】;ii)一个通信和卸载重叠机制（communication and offload overlapping mechanism），用于并行执行梯度所需的数据移动和向后计算【并行执行 BWD 与梯度更新移动。类似上面，在计算 BWD 算子时，对已经执行的 2 个算子依次并行执行梯度更新与 GPU → CPU 梯度传输】。**
+
+
+**ZeRO-Infinity中的动态预取器动态跟踪向前和向后的计算，为每次迭代构造算子序列的内部映射。在每次迭代期间，预取器跟踪它在算子序列中的位置，并预取未来算子所需的参数**。预取器知道三步通信过程，因此可以将一个参数的nc-transfer与其他参数的cgtransfer和gg-transfer重叠。例如，预取器在执行第i个算子之前，可以分别对i+ 3、i+2和i+1所需要的参数调用nc、cg和gg-transfer。注意，所有这些数据移动都可以与执行第i个运算符并行进行。此外，**ZeRO-Infinity可以在动态工作流的情况下更新算子序列映射，即使在迭代期间向前和向后传播发生变化时也允许适当的预取**。
+
+类似地，**在后向传递中，ZeRO-Infinity 可以重叠第 (i+1)个 算子中参数的梯度的 reduce-scatter，同时将分区梯度从第 (i+ 2)个算子的梯度的 reduce-scatter 转移到 CPU 或 NVMe。凭借这种强大的以重叠为中心的设计，ZeRO-Infinity 隐藏了很大一部分数据移动，即使使用少量 GPU 进行训练，每个 GPU 的批量大小也很小**。
