@@ -77,3 +77,6 @@ _class_deepspeed.zero.TiledLinear(_in_features_, _out_features_, _bias=True_,�
  TORCH_CUDA_ARCH_LIST="8.6" DS_BUILD_OPS=1 pip install . --no-cache
 
 using `ds` instead of `deepspeed` fixes this for me. documentation should be changed!
+
+
+激活环境要注意
