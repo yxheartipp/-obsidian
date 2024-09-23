@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "493f876b5da91801",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "deepspeed 数据流动.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DeepSpeed 安装测试说明.md",
+                "file": "deepspeed 数据流动.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DeepSpeed 安装测试说明.md",
+                "file": "deepspeed 数据流动.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DeepSpeed 安装测试说明.md"
+                "file": "deepspeed 数据流动.md"
               }
             }
           },
@@ -219,12 +231,13 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "b7ea9b21df365fdc",
+  "active": "493f876b5da91801",
   "lastOpenFiles": [
+    "DeepSpeed 安装测试说明.md",
+    "deepspeed 数据流动.md",
     "Pasted image 20240920143846.png",
     "Pasted image 20240920143635.png",
     "ZeRO-Infinity Breaking the GPU Memory Wall for Extreme Scale Deep Learning.md",
-    "DeepSpeed 安装测试说明.md",
     "Pasted image 20240920143114.png",
     "Pasted image 20240919151632.png",
     "Pasted image 20240919151604.png",
@@ -233,7 +246,6 @@
     "Pasted image 20240919145156.png",
     "Pasted image 20240919144204.png",
     "Pasted image 20240919144200.png",
-    "Pasted image 20240919144110.png",
     "redis-单节点启动方式.md",
     "参数分析.md",
     "rocksdb remote compaction 多线程性能.md",
